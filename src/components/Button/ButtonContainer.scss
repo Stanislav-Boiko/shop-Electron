@@ -1,0 +1,13 @@
+.buttons-container {
+  justify-content: center;
+  display: flex;
+  gap: 24px;
+}
+
+.buttons-container button {
+  min-width: 120px;
+  height: 44px;
+  font-size: 16px;
+  border-radius: 8px;
+  transition: background 0.2s, color 0.2s;
+}

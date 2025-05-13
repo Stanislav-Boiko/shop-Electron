@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header рендериться правильно 1`] = `
+<DocumentFragment>
+  <header
+    class="header"
+  >
+    <div
+      class="nav"
+    >
+      <a
+        class="nav_logo"
+        data-discover="true"
+        href="/shop"
+      >
+        Electron
+      </a>
+      <a
+        class="nav_item active"
+        data-discover="true"
+        href="/shop"
+      >
+        Shop
+      </a>
+      <a
+        class="nav_item "
+        data-discover="true"
+        href="/about"
+      >
+        About
+      </a>
+      <a
+        class="nav_item "
+        data-discover="true"
+        href="/services"
+      >
+        Services
+      </a>
+      <a
+        class="nav_item "
+        data-discover="true"
+        href="/contacts"
+      >
+        Contacts
+      </a>
+      <div
+        class="cartContainer"
+      >
+        <a
+          class="cart"
+          data-discover="true"
+          href="/favorites"
+        >
+          <span
+            class="counter"
+          >
+            3
+          </span>
+          <img
+            alt="Liked"
+            class="CartImg"
+            src="test-file-stub"
+          />
+        </a>
+        <a
+          class="cart"
+          data-discover="true"
+          href="/cart"
+        >
+          <span
+            class="counter"
+          >
+            2
+          </span>
+          <img
+            alt="Cart"
+            class="CartImg"
+            src="test-file-stub"
+          />
+        </a>
+      </div>
+    </div>
+  </header>
+</DocumentFragment>
+`;

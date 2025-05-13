@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal не рендериться, якщо isOpen=false 1`] = `<DocumentFragment />`;
+
+exports[`Modal рендериться з продуктом 1`] = `
+<DocumentFragment>
+  <div
+    class="overlay"
+  >
+    <div
+      class="modal"
+    >
+      <button
+        class="closelImg"
+        type="button"
+      >
+        X
+      </button>
+      <h2
+        class="titleModal"
+      >
+        Test Modal
+      </h2>
+      <div
+        class="text"
+      >
+        <div>
+          <img
+            alt="Test"
+            src="/test.png"
+          />
+          <h3>
+            Test
+          </h3>
+          <p>
+            Color: Red
+          </p>
+          <p>
+            Sku: 123
+          </p>
+          <p>
+            Price: $100
+          </p>
+        </div>
+      </div>
+      <div
+        class="buttons-container"
+      >
+        <button
+          class="white-btn"
+          type="button"
+        >
+          NO, CANCEL
+        </button>
+        <button
+          class="violet-btn"
+          type="button"
+        >
+          YES, CONFIRM
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

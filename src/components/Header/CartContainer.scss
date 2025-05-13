@@ -1,0 +1,37 @@
+
+.cartContainer {
+    display: flex;
+    gap: 12px;
+    margin-left: 40px;
+    
+    
+    .cart {
+        display: flex;
+        align-items: center;
+        border-radius: 8px;
+        border: 1px solid #8a33fd;
+        background-color: #fff;
+        gap: 12px;
+        padding: 10px;
+        text-decoration: none;
+        cursor: pointer;
+
+        &:hover {
+            border: 1px solid #6a0de3;
+
+            .counter,.CartImg {
+                transform: scale(1.1);
+            }
+        }
+
+        .counter {
+            color: #6a0de3;
+            font-size: 18px;
+            
+        }
+
+        .CartImg {
+            filter: invert(35%) sepia(93%) saturate(7500%) hue-rotate(255deg) brightness(95%) contrast(105%);
+        }
+    }
+}

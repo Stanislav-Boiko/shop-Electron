@@ -1,0 +1,20 @@
+
+
+
+.closelImg {
+    position: absolute;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(138, 51, 253, 1);
+    top: 20px;
+    right: 20px;
+    padding: 4px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+  
+    &:hover {
+        background-color: #6a0de4;
+    }
+}

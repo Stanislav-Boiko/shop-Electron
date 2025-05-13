@@ -1,0 +1,19 @@
+
+
+
+.footer {
+    display: flex;
+    position: fixed;
+    box-sizing: border-box;
+    padding: 10px 10px;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    height: 80px;
+    width: 100%;
+    background-color: rgb(185, 185, 185);
+    color: #8a33fd;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+}
